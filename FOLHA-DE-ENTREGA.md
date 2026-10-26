@@ -50,9 +50,7 @@ Resposta: a porta 22 é a padrão do SSH, mas redes institucionais como a do IFS
 
 ### Entrega 6 — Print do `ls` após o `git clone`
 
-\
-\
-\
+![Entrega 6](prints/entrega-06.png)
 
 ### Entrega 7 — Print de `http://IP:5000` com os nomes do grupo
 
