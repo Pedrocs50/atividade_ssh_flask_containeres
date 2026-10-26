@@ -106,15 +106,10 @@ Resposta: porque o `python3 main.py` roda **preso ao terminal da sessão SSH**. 
 
 ### Entrega 15 — Print de **dentro** do contêiner (`ls` e `cat main.py`)
 
-\
-\
-\
+![Entrega 15](prints/entrega-15.png)
 
 ### Entrega 16 (fechamento) — Diferença entre `python3 main.py` e Docker
 
 Por que só o contêiner continua no ar depois que você desconecta?
 
-Resposta: ______________________________________________
-\
-\
-\
+Resposta: rodar com `python3 main.py` (Parte 2) executa o programa **preso ao terminal da sessão SSH**: quando a conexão é encerrada, o processo morre junto e o site cai. Com o Docker (Parte 3), a aplicação roda **dentro de um contêiner isolado, em segundo plano** (`-d`), gerenciado pelo Docker e não pelo meu terminal. Por isso ele continua no ar depois do `exit`, e com `--restart unless-stopped` ainda volta sozinho se o servidor reiniciar. Além disso, o contêiner leva junto o Python, o Flask e os arquivos do projeto, então roda igual em qualquer lugar.
