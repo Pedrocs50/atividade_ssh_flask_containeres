@@ -78,11 +78,11 @@ Resposta: apareceu o erro **404 Not Found**. Ele acontece porque a rota `/pagina
 
 ### Entrega 10 — Print do site **fora do ar** depois do `Ctrl + C` + `exit`
 
+![Entrega 10](prints/entrega-10.png)
+
 Por que ele caiu?
 
-Resposta: ______________________________________________
-\
-\
+Resposta: porque o `python3 main.py` roda **preso ao terminal da sessão SSH**. Ao dar `Ctrl + C` e `exit`, a conexão é encerrada e o processo morre junto, então nada fica escutando na porta 80 e o navegador não consegue mais conectar (`ERR_CONNECTION_RESET`). O site só ficava no ar enquanto eu estava conectado.
 
 ---
 
