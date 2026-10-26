@@ -90,9 +90,7 @@ Resposta: porque o `python3 main.py` roda **preso ao terminal da sessão SSH**. 
 
 ### Entrega 11 — Print do final do `docker build` (`Successfully built / tagged`)
 
-\
-\
-\
+![Entrega 11](prints/entrega-11.png)
 
 ### Entrega 12 — Print do `docker ps` com o contêiner `cobrinha` em `Up`
 
