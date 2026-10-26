@@ -94,21 +94,15 @@ Resposta: porque o `python3 main.py` roda **preso ao terminal da sessão SSH**. 
 
 ### Entrega 12 — Print do `docker ps` com o contêiner `cobrinha` em `Up`
 
-\
-\
-\
+![Entrega 12](prints/entrega-12.png)
 
 ### Entrega 13 — Print de `http://IP` **depois** do `exit` (o site continua no ar)
 
-\
-\
-\
+![Entrega 13](prints/entrega-13.png)
 
 ### Entrega 14 — Print do `docker logs cobrinha` **ou** do `docker stats`
 
-\
-\
-\
+![Entrega 14](prints/entrega-14.png)
 
 ### Entrega 15 — Print de **dentro** do contêiner (`ls` e `cat main.py`)
 
