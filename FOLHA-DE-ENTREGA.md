@@ -56,9 +56,9 @@ Resposta: a porta 22 é a padrão do SSH, mas redes institucionais como a do IFS
 
 (Se a porta 5000 estiver bloqueada na rede, escreva *"porta 5000 bloqueada"*.)
 
-\
-\
-\
+![Entrega 7](prints/entrega-07.png)
+
+A porta 5000 **não** estava bloqueada: o site abriu normalmente (servidor simulado, acessado em `127.0.0.1:5000`).
 
 ### Entrega 8 — Print de `http://IP` (porta 80) com os nomes do grupo
 
