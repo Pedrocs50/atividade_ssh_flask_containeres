@@ -22,9 +22,7 @@ na ordem. Numere conforme o handout.
 
 ### Entrega 1 — Print do terminal logo após conectar (mostrando `root@aula-grupoX:~#`)
 
-\
-\
-\
+![Entrega 1](prints/entrega-01.png)
 
 ### Entrega 2 — Print do conteúdo do arquivo criado no `nano`, exibido pelo `cat`
 
