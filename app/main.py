@@ -10,9 +10,7 @@ app = Flask(__name__)
 #  a pagina antes de enviar pro navegador.
 # =============================================================
 integrantes = [
-    "Fulano de Tal",
-    "Ciclana de Souza",
-    "Beltrano Silva",
+    "Pedro de Moraes Machado",
 ]
 
 
