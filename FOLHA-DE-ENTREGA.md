@@ -32,9 +32,9 @@ na ordem. Numere conforme o handout.
 
 Quantos **núcleos** de processador e quanta **memória RAM** tem o servidor do grupo?
 
-Resposta: ______________________________________________
-\
-\
+![Entrega 3](prints/entrega-03.png)
+
+Resposta: o servidor tem **12 núcleos** de processador (`nproc`) e **15 GiB** de memória RAM (`free -h`). (Servidor simulado em contêiner, que usa os recursos da máquina hospedeira.)
 
 ### Entrega 4 — Por que o SSH usa a porta 53 e não a porta 22 (a padrão)?
 
