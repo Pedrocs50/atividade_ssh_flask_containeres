@@ -6,6 +6,10 @@ Baseada no material do professor: https://github.com/tardellirs/aula-redes-ssh
 O objetivo é colocar um jogo da cobrinha feito em **Flask** no ar, aprendendo **SSH**,
 **deploy** e **contêineres (Docker)**.
 
+## Entrega
+
+👉 **Abra a [Folha de Entrega](FOLHA-DE-ENTREGA.md)** para ver as 16 entregas, com os prints e as respostas de cada uma.
+
 ## Como foi feito
 
 Como não havia servidor na nuvem disponível, o servidor foi **simulado** com um contêiner
