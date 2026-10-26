@@ -26,9 +26,7 @@ na ordem. Numere conforme o handout.
 
 ### Entrega 2 — Print do conteúdo do arquivo criado no `nano`, exibido pelo `cat`
 
-\
-\
-\
+![Entrega 2](prints/entrega-02.png)
 
 ### Entrega 3 — Print do `nproc` e `free -h`
 
