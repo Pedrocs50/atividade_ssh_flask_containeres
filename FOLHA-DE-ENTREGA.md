@@ -62,19 +62,19 @@ A porta 5000 **não** estava bloqueada: o site abriu normalmente (servidor simul
 
 ### Entrega 8 — Print de `http://IP` (porta 80) com os nomes do grupo
 
+![Entrega 8](prints/entrega-08.png)
+
 Por que não precisamos mais digitar a porta na URL?
 
-Resposta: ______________________________________________
-\
-\
+Resposta: porque a porta 80 é a **porta padrão da web (HTTP)**: quando a URL não tem `:porta`, o navegador usa a 80 automaticamente. Por isso sites como `google.com` não mostram número de porta. (Nesta simulação o navegador usa `localhost:8081` porque o Docker mapeia a porta 8081 do meu PC para a 80 do servidor simulado; num servidor real bastaria `http://IP`.)
 
 ### Entrega 9 — Print do erro em `http://IP/pagina99`
 
+![Entrega 9](prints/entrega-09.png)
+
 Que erro apareceu e por quê?
 
-Resposta: ______________________________________________
-\
-\
+Resposta: apareceu o erro **404 Not Found**. Ele acontece porque a rota `/pagina99` não existe no Flask: o `main.py` só define a rota `/` (`@app.route("/")`), então o servidor não sabe o que responder para qualquer outro caminho.
 
 ### Entrega 10 — Print do site **fora do ar** depois do `Ctrl + C` + `exit`
 
