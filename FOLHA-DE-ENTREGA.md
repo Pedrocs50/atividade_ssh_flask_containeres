@@ -42,9 +42,7 @@ Resposta: a porta 22 é a padrão do SSH, mas redes institucionais como a do IFS
 
 ### Entrega 5 — Print da sua **chave pública** (`id_ed25519.pub`)
 
-\
-\
-\
+![Entrega 5](prints/entrega-05.png)
 
 ---
 
