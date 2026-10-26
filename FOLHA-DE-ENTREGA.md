@@ -4,11 +4,11 @@ title: "Folha de Entrega — Aula: SSH, Flask e Contêineres"
 
 **Disciplina:** Redes de Computadores — IFSP Jacareí
 
-**Grupo:** ______________________________________________
+**Grupo:** Grupo 1 (individual)
 
-**Integrantes:** ________________________________________
+**Integrantes:** Pedro de Moraes Machado
 
-**IP do servidor:** _____________________   **Data:** ____________
+**Servidor:** simulado em contêiner Docker (`ssh -p 2222 root@localhost`)   **Data:** 25/10/2026
 
 ---
 
@@ -38,9 +38,7 @@ Resposta: o servidor tem **12 núcleos** de processador (`nproc`) e **15 GiB** d
 
 ### Entrega 4 — Por que o SSH usa a porta 53 e não a porta 22 (a padrão)?
 
-Resposta: ______________________________________________
-\
-\
+Resposta: a porta 22 é a padrão do SSH, mas redes institucionais como a do IFSP costumam bloqueá-la. A porta 53 é a do DNS, que praticamente nenhuma rede bloqueia, porque sem DNS não se acessa a internet. Usando a 53, o SSH consegue passar pelo bloqueio e conectar no servidor.
 
 ### Entrega 5 — Print da sua **chave pública** (`id_ed25519.pub`)
 
